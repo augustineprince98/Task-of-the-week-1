@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Welcome to BuyKart</title>
+       <style> 
+       body{margin: 0%}
+        .topnav{
+                text-align:center;
+                background-color: rgb(16, 65, 65);
+                overflow: hidden;
+                top:0;
+        }
+        .topnav a {
+            float: right;
+            color: #f2f2f2;
+            text-align: right;
+            padding: 14px 16px;
+            text-decoration: wavy;
+            font-size: 17px;
+        }
+        .topnav a.active {
+            background-color: rgb(24, 104, 104);
+            color: white;
+        }
+        .menubar{
+                text-align:center;
+                background-color: rgb(23, 116, 116);
+                overflow: hidden;
+                top:0;
+        }
+        .menubar a{
+            float: center;
+            color:antiquewhite;
+            text-align: center;
+            padding: 24px 26px;
+            size: 12px;
+            font-size: 16px;
+        }
+        #logo{
+            position:absolute;
+            left: 5%;
+            top: 1%;
+        }
+        #search{
+                position: absolute;
+                left: 8%;
+                top: 1%;
+        }
+        #footer{
+            position: bottom;
+            bottom: 0%; 
+        }
+        #para1{
+            float: center;
+            text-align: center;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-size: 30px; 
+        }
+        #para2{
+            text-align: left;
+            font-size: 0.2in;
+
+        }
+        body{
+            background-color: rgb(235, 235, 235);
+            background-size: 100%;
+        }
+        #list{
+            float: left;
+        }
+       </style>
+    </head>
+
+    <body>
+        <header>
+            <div class="topnav">
+                <img id="logo" src="images.png" alt="back" height="35px" width="35px" position="left" >
+                <a >About</a>
+                <a>Register/Login</a>
+                <a >Contact</a>
+                <a >News</a>
+                <a class="active" href="#home">Home</a>            
+                <input id="search"type="text" placeholder="Search your product" style=" height:30px ; width:750px">
+            </div>
+            <header>
+                <div class="menubar">
+                    <a><b>MEN</b></a>
+                    <a><b>WOMEN</b></a>
+                    <a><b>KIDS</b></a>
+                    <a><strong>ELECTRONICS</strong></a>
+                    <a><strong>CLOTHING</strong></a>
+                    <a><strong>HOME APPLIANCES</strong></a>
+                </div>
+            </header>
+        </header>
+        <h1 id="para1">Welcome to <a href="Buykart.com">Buykart</a> </h1>
+        <h2 id="para2">
+                Worth checking out for: Just about anything, excluding computer components. A chain of retail stores with a website.
+                They also sell just about any electronic product under the sun, except PC components of course. Prices are as expected
+                , a bit on the higher side but similar to Chroma. The site is quite well laid out so finding stuff you want is not too big a deal. 
+                Interestingly, they have all the absolute latest products listed out, even if they are not currently available in India,
+                and will send you a notification when that product is in stock. Flipkart and a few other sites do the 
+                same things so it is not something new.
+        </h2>
+        <ol id="list">
+            <li><a href="https://www.nike.com">Nike</li>
+            <li> <a href="https://www.levi.com">Levi Clothing</li>
+            <li> <a href="https://www.woodlandworldwide.com/">Woodland</li>
+            <li> <a href="https://www.philips.co.in/">Philips - India</li>
+            <li> <a href="https://us.benetton.com/"> United Colorsof Benetton</li>
+        </ol>
+        <hr>
+        <footer id="footer">
+                <p>Posted by: Augustine</p>
+                <p>Contact information: <a href="mailto:augustine@example.com">Augustine </a></p>
+        </footer>
+    </body>
+</html>
